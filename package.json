@@ -11,5 +11,16 @@
   "devDependencies": {
     "@playwright/test": "^1.55.0",
     "@types/node": "^24.3.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madalinescu88/autotraining.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Madalinescu88/autotraining/issues"
+  },
+  "homepage": "https://github.com/Madalinescu88/autotraining#readme"
 }
