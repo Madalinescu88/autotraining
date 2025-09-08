@@ -1,4 +1,7 @@
-test.skip('Add an item to cart', { tag: ['@smoke'] },async ({ page }) => {
+
+import { test, expect } from '@playwright/test';
+
+test('Add an item to cart', { tag: ['@smoke'] },async ({ page }) => {
 
   await page.goto('https://www.saucedemo.com/');
 
